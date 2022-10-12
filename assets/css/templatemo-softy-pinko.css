@@ -72,17 +72,17 @@ ul {
 
 html,
 body {
-  background: #dbbdfd;
+  background: #8261ee;
   font-family: "Raleway", sans-serif;
 }
 
 ::selection {
-  background: #ff589e;
+  background: #dbbdfd;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #ff589e;
+  background: #dbbdfd;
   color: #fff;
 }
 
@@ -241,7 +241,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #ff589e;
+  background-color: #dbbdfd;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -252,14 +252,14 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #dbbdfd;
+  background-color: #8261ee;
 }
 
 a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #dbbdfd;
+  background-color: #8261ee;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -270,7 +270,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #ff589e;
+  background-color: #dbbdfd;
 }
 
 button.main-button {
@@ -280,7 +280,7 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #dbbdfd;
+  background-color: #8261ee;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -291,7 +291,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #ff589e;
+  background-color: #dbbdfd;
 }
 
 
@@ -375,7 +375,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #ff589e;
+  color: #dbbdfd;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -487,7 +487,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff589e;
+  color: #dbbdfd;
 }
 
 @media (max-width: 1200px) {
@@ -571,7 +571,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #dbbdfd;
+  background: #8261ee;
   height: 100vh;
 }
 
@@ -687,7 +687,7 @@ parallax & home seperator
   position: absolute;
   width: 140%;
   height: 140%;
-  background: #dbbdfd;
+  background: #8261ee;
   z-index: 2;
   top: -20%;
   left: -20%;
@@ -941,7 +941,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-color: #dbbdfd;
+  background-color: #8261ee;
   padding-top: 20px;
 }
 
@@ -957,7 +957,7 @@ footer .social li {
 }
 
 footer .social li a {
-  color: #9d5bd9;
+  color: #8261ee;
    text-align: center;
   background-color: #fff;
   width: 36px;
@@ -973,7 +973,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #ff589e;
+  background-color: #dbbdfd;
   color: #fff;
 }
 
