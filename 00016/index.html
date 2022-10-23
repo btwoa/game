@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://ovo.btwoa.com/favicon/game/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>鲲鲲来电</title>
+</head>
+
+<body>
+    <audio src="https://ovo.btwoa.com/music/ring.mp3" loop="loop" id="ring"></audio>
+    <audio src="https://ovo.btwoa.com/music/hangup.mp3"  id="hangUpRing"></audio>
+    <div class="bigBox">
+        <div class="topBox">
+            <div class="narrow">
+                <img src="img/narrow.png" alt="" srcset="">
+            </div>
+            <span>邀请你语音通话...</span>
+        </div>
+        <div class="middleBox">
+            <div class="headImg">
+                <img src="img/profilephoto.jpg" alt="" srcset="">
+
+            </div>
+        </div>
+        <div class="bottomBox">
+            <div class="box">
+                <div class="hangUp" id="hangUp">
+                    <img src="img/hangup.png">
+                </div>
+                <div class="answer" id="answer">
+                    <img src="img/answer.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 未接听界面 -->
+    <div class="hangUpBox" id="hangUpBox">
+        <img src="img/hangupfirst.webp" style="width:300px">
+        <div>
+            <br>
+            「百年难遇周杰伦，万年难出蔡徐坤」<br>
+            「他拿奖杯拿到手软，即使你把键盘敲烂了他还是能拿到奖，巨星不懂糊的悲，你拿什么和你坤哥斗」<br>
+            「当他公布恋情的那一天，关掉手机，大哭一场，哭完之后冷静冷静，第二天一定要拿起键盘为他抵挡所有的流言蜚语，只因为他是蔡徐坤，他必须幸福」<br>
+        </div>
+    </div>
+    <!-- 接听后界面 -->
+    <div class="answerBox" id="answerBox">
+        <br>
+        <img src="img/1.gif" style="width:300px"><br>
+        <img src="img/2.gif" style="width:300px"><br>
+        <img src="img/3.gif" style="width:300px"><br>
+        <img src="img/4.gif" style="width:300px">
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
