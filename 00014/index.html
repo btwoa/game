@@ -8,13 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://ovo.btwoa.com/favicon/game/favicon.png">
     <link rel="stylesheet" href="css/style.css">
-    <!-- 新 Bootstrap5 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
-    <!--  popper.min.js 用于弹窗、提示、下拉菜单 -->
     <script src="https://cdn.staticfile.org/popper.js/2.9.3/umd/popper.min.js"></script>
-    <!-- 最新的 Bootstrap5 核心 JavaScript 文件 -->
     <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
-    <!-- 小图标库 -->
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <title>云空调</title>
@@ -32,7 +28,6 @@
             </div>
             <div class="air">
                 <div class="airMain">
-                    <!-- 温度显示区域 -->
                     <div class="num" :style="{display:display1}">
                         <div class="logo">
                             <i class="fa fa-snowflake-o" style="color: #74b9ff;" v-if="flag"></i>
@@ -44,7 +39,6 @@
 
                     </div>
                     <div class="advBag">
-                        <!-- 空调节能标识 -->
                         <div class="adv">
                             <div class="first">
                                 <div class="firstCen">
@@ -82,7 +76,6 @@
 
                         </div>
                     </div>
-                    <!-- 空调下部标志区域、出风口和指示灯区域 -->
                     <div class="wire">
                         <div class="icon">
                             <i class="fa fa-leaf" style="font-size:15px;color:#dfe6e9"></i>
@@ -94,14 +87,11 @@
                 </div>
             </div>
         </div>
-        <!-- 底部按钮区域 -->
         <div class="bottomBac">
-            <!-- 横向按钮区域 -->
             <div class="bottomHead">
                 <div class="crossBox">
                     <button type="button" class="btn btn-outline-primary" @click="cold"><i
                             class="fa fa-snowflake-o"></i></button>
-                    <!-- 暂停按钮 -->
                     <button type="button" class="btn btn-outline-danger" v-if="!show" @click="stopmp3"><i
                             class="fa fa-power-off"></i></button>
                     <button type="button" class="btn btn-outline-success" v-if="show" @click="playmp3"><i
@@ -111,14 +101,12 @@
                 </div>
             </div>
 
-            <!-- 纵向按钮区域 -->
             <div class="bottomTail">
                 <div class="lengBox">
                     <button type="button" class="btn btn-light" @click="add"> <i class="fa fa-sort-asc"></i></button>
                     <button type="button" class="btn btn-light" @click="reduce"><i class="fa fa-sort-down"></i></button>
                 </div>
             </div>
-            <!-- 温度超出范围弹窗 -->
 
         </div>
         <div class="alertBag">
@@ -154,8 +142,6 @@
                 }
             },
             methods: {
-                /* 播放和暂停按钮 */
-
                 playmp3: function () {
                     /*  var audio_file = new Audio('./soundSrc/airEffect.wav'); */
                     var audio_file = document.getElementById('audio2')
@@ -183,7 +169,7 @@
                     this.display1 = "none"
                     this.color = false
                 },
-                /* 改变温度函数 */
+
                 add: function () {
 
                     if (this.num >= 32) {
@@ -208,11 +194,11 @@
                     }
 
                 },
-                /* 关闭弹窗函数 */
+
                 close: function () {
                     this.display = "none"
                 },
-                /* 制冷制热切换函数 */
+
                 cold: function () {
                     document.getElementById('audio1').play()
                     this.flag = true
