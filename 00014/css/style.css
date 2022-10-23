@@ -5,7 +5,7 @@
 /* 自定义字体 */
 @font-face {
     font-family: digital_7;
-    src: url(/font/digital.ttf);
+    src: url(font/digital.ttf);
   }
 .bigBac{
     position: absolute;
