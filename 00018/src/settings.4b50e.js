@@ -7,9 +7,9 @@ window._CCSettings = {
     hasStartSceneBundle: false,
     remoteBundles: ["resources", "main"],
     subpackages: [],
-    launchScene: "db://assets/scene/main.fire",
+    launchScene: "",
     orientation: "portrait",
-    server: "https://cat-match-static.easygame2021.com/catMatch/sheep_1_2_8/",
+    server: "",
     jsList: [],
     bundleVers: {internal: "e6604", resources: "8b75c", main: "0df91"}
 };
